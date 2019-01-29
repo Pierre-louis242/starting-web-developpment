@@ -1,41 +1,153 @@
-.backBack {
-    background-color: #EFEFEF; 
-    
+body{
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.allPage {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    min-width: 150px; 
+    background-color: #EFEFEF;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boiteBoite {
+    padding: 2em;
+    border-color: lightslategray;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    border-radius: 0.7%;
+    font-size: 0.9rem;
+    max-width: 450px;
+    min-width: 150px;
+    width: 100%;
 }
 
 .timberTimber {
     background-color: white;
-    height: 35em;
-    width: 40em;
-    margin: auto;
-    padding-bottom: 5em;
-    padding-top: 5em;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
 }
 
 .imgTimber {
-
+    border-radius: 50%;
+    height: 12em;
+    width: 11.5em;
+    border: solid 4px lightgrey;
 }
 
-.textTimber {
-
+h1 {
+    color: #ff4d4d;
+    text-align: center;
 }
 
-.linkTimber {
+h2 {
+    color: #818181;
+    padding: 10px; 
+    text-align: center;
+}
 
+h3 {
+    color: #818181;
+    text-align: center;
+}
+
+p {
+    color: #818181;
+}
+
+.linkTimber {     
+    background-color: #ff4d4d;
+    height: 55px;
+    width: 155px;
+    border-radius: 4%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .linkLink {
     background-color: white;
     height: 10em;
-    width: 40em;
-    margin: auto;
-    padding-bottom: 5em;
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;   
+    text-align: center;
+}
+
+.linkLink a {
+    text-decoration: none;
+    color: #acaaaa;
+    font-size: 20px;
+}
+
+.resSocial {
+    cursor: pointer; 
 }
 
 .movieMovie {
     background-color: white;
-    height: 90em;
-    width: 40em;
-    margin: auto;
-    padding-bottom: 5em;
+    height: auto;
+    width: 100%;
+    padding-bottom: 0em;
 }
+
+.boiteFilm {
+    display: flex; 
+    flex-direction: row;  
+    width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+    .boiteFilm {
+        flex-direction: column;
+        align-items: center;
+    }
+    .linkLink {
+        flex-direction: column;
+    }
+    .boiteImage {
+        display: flex; 
+        justify-content: center;
+    }
+}
+
+.textFilm {
+    height: auto; 
+    width: 70%;
+    text-align: justify;
+}
+
+.boiteImage { 
+    width: 30%;
+    min-width: 150px;
+}
+
+.imgFilm {
+    height: 10em;
+    padding-bottom: 25%;
+    padding-top: 15%;
+}
+
+span{
+    background-color: #EFEFEF;
+}
+
+
+

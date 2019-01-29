@@ -1,0 +1,33 @@
+<div class="odyssey">
+	<img src="img/a-space-odissey.jpeg" alt="A space Odyssey">
+</div>
+
+<h3>2001 - Space Odyssey</h3>
+
+<p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+
+<div class="hulot"><img src="img/les-vacances-mrHulot.jpeg" alt="Les vacances de monsieur Hulot">
+</div>
+
+<h3>Monsieur Hulot</h3>
+
+<p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+
+<div class="Alien"><img src="img/alien.jpeg" alt="Alien">
+</div>
+
+<h3>Alien</h3>
+
+<p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+
+
+
+
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+<div class="link">
+<a href="https://www.facebook.com/tim.berners.lee/"><i class="fab fa-facebook-f"></i><br/>Facebook</a>
+<a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"><i class="fab fa-linkedin-in"></i><br/>Linkedin</a>
+<a href="https://twitter.com/timberners_lee"><i class="fab fa-twitter"></i><br/>Twitter</a>
+</div>
+
