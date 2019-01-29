@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
     margin: auto;
     box-sizing: border-box;
     background-color: #EFEFEF;
@@ -27,10 +28,27 @@ body{
     max-width: 450px;
     min-width: 150px;
     width: 100%;
+=======
+    max-width: 1000px;
+    min-width: 300px; 
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #EFEFEF;
+}
+
+
+.allPage {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
 }
 
 .timberTimber {
     background-color: white;
+<<<<<<< HEAD
     height: auto;
     width: 100%;
     margin-bottom: 2em;
@@ -38,14 +56,32 @@ body{
     justify-content: center; 
     align-items: center; 
     flex-direction: column;
+=======
+    height: 35em;
+    width: 40em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    margin-bottom: 5em;
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
 }
+
+.boiteBoite {
+    padding: 2em;
+    border-color: lightslategray;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    border-radius: 0.7%; 
+}
+
 
 .imgTimber {
     border-radius: 50%;
     height: 12em;
     width: 11.5em;
     border: solid 4px lightgrey;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
 
 h1 {
     color: #ff4d4d;
@@ -63,18 +99,38 @@ h3 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 p {
+=======
+h1 {
+    color: #ff4d4d;
+}
+
+h2 {
+    color: #818181;
+}
+
+h3 {
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
     color: #818181;
 }
 
 .linkTimber {     
     background-color: #ff4d4d;
+<<<<<<< HEAD
     height: 55px;
     width: 155px;
     border-radius: 4%;
     color: white;
     font-size: 15px;
     cursor: pointer;
+=======
+    height: 2.5em;
+    width: 8em;
+    border-radius: 4%;
+    color: white;
+    font-size: 24px;
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -83,6 +139,7 @@ p {
 .linkLink {
     background-color: white;
     height: 10em;
+<<<<<<< HEAD
     width: 100%;
     margin-bottom: 2em;
     display: flex; 
@@ -99,10 +156,40 @@ p {
 
 .resSocial {
     cursor: pointer; 
+=======
+    width: 40em;
+    padding-bottom: 5em;
+    margin-bottom: 5em;
+}
+
+#facebook {
+    height: 40px; 
+    width: 20em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+}
+
+#linkedin {
+    height: 40px; 
+    width: 20em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+#twitter {
+    height: 40px; 
+    width: 20em; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: right; 
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
 }
 
 .movieMovie {
     background-color: white;
+<<<<<<< HEAD
     height: auto;
     width: 100%;
     padding-bottom: 0em;
@@ -151,3 +238,9 @@ span{
 
 
 
+=======
+    height: 90em;
+    width: 40em;
+    padding-bottom: 5em;
+}
+>>>>>>> 5a4fb6e5b24d58ea4a5d447c1f1437d28443ba92
