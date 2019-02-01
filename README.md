@@ -33,6 +33,10 @@ Voici un apperçu de la page web en question:
 
 ![TimBerners-Lee](/Screen-shot-website/timbernerslee.png)
 
+#### Le lien vers la page internet:
+
+https://pierre-louis242.github.io/starting-web-developpment/
+
 ## Progression 
 
 Le projet en lui même est terminé. 
