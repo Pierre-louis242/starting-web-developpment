@@ -31,7 +31,7 @@ Le but était de reproduire une page web, reprenant une biographie de Tim Berner
 
 Voici un apperçu de la page web en question: 
 
-![TimBerners-Lee](c:/home/user/Pictures/timbernerslee.png)
+![TimBerners-Lee](/home/user/starting-web-developpment/Screen shot website /timbernerslee.png)
 
 ## Progression 
 
